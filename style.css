@@ -438,7 +438,7 @@ header .logo a img{
     width:2rem;
 }
 .sliding-container{
-    width:260px;
+    width: 260px;
 }
 .sliding-container a{
     transition:color cubic-bezier(0.19, 1, 0.22, 1) .5s;
@@ -485,13 +485,4 @@ header .logo a img{
 .sliding-container a:hover{
     --tw-text-opacity: 1;
     color: rgb(43 195 112 / var(--tw-text-opacity)); 
-}
-.swiper-slide{
-    display:flex;
-    flex-shrink:0;
-}
-.swiper-wrapper{
-    display:flex;
-    flex-shrink:0;
-    gap:2rem;
 }
