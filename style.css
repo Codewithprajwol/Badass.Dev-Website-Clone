@@ -421,3 +421,77 @@ header .logo a img{
 .slider-arrow svg:hover path{
     color:#cfcacab4;
 }
+/* start of sliding part */
+.swiper{
+    margin-top: 5rem;
+    width:100%;
+   min-height:500px;
+}
+.human-img-container{
+    position:relative;
+}
+.human-img-container svg{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    width:2rem;
+}
+.sliding-container{
+    width:260px;
+}
+.sliding-container a{
+    transition:color cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    /* display:block; */
+    text-decoration: none;
+}
+.sliding-container .human-img-container{
+    width: 100%;
+    height:auto;
+}
+.inner-img-container{
+    width:100%; 
+    border-radius: 32px;
+    overflow:hidden;
+
+}
+.inner-img-container img{
+    width:100%;
+    object-fit: cover;
+    height:auto;
+}
+
+#human-course-data#human-course-data{
+    line-height: 1.333;
+    font-size: 1.5rem;
+    font-family: DM Sans;
+    margin-top: 1.5rem;
+    font-weight: 700;
+    color:unset;
+}
+
+.sliding-container p{
+    letter-spacing: .16px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    --tw-text-opacity: 1;
+    color: rgb(189 189 189 / var(--tw-text-opacity));
+    font-family: DM Mono;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: .5rem;
+}
+
+.sliding-container a:hover{
+    --tw-text-opacity: 1;
+    color: rgb(43 195 112 / var(--tw-text-opacity)); 
+}
+.swiper-slide{
+    display:flex;
+    flex-shrink:0;
+}
+.swiper-wrapper{
+    display:flex;
+    flex-shrink:0;
+    gap:2rem;
+}
